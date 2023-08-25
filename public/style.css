@@ -1,6 +1,7 @@
 .racer-table td {
-  height: 40px;
-  width: 40px;
+  height: 120px;
+  width: 120px;
+  border: 1px solid #dedede;
 }
 .racer-table td.active {
   background-repeat: no-repeat;
@@ -11,6 +12,10 @@
 }
 #player2-race td.active {
   background-image: url("images/player_2.png");
+}
+
+.finish-cell {
+  background-image: url("images/finish.png");
 }
 
 .text-center {
