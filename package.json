@@ -1,12 +1,17 @@
 {
   "devDependencies": {
     "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   },
   "scripts": {
     "start": "webpack start",
-    "build": "webpack"
-  }
+    "build": "wagon_race"
+  },
+  "name": "wagon-race",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Fisola91/wagon-race.git",
+  "author": "Fisola Adesuyi <adesuyifisola@gmail.com>",
+  "license": "MIT"
 }
-
-
